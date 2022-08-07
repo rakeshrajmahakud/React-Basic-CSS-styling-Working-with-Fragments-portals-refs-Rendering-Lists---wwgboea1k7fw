@@ -54,7 +54,7 @@ class App extends Component {
 										{item.name}
 					   				</div>
 					   				<div className="percent">
-										{+(item.percent.toFixed(2))}
+										{item.percent.toFixed(2)}
 					   				</div>
 				   				</div>
 				   				);
